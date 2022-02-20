@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo&display=swap");
+
+* {
+  background-color: #1f1f1f;
+}
+
+body {
+  font-family: "Cardo", serif;
+  color: whitesmoke;
+}
+
+a img{
+  border: none;
+  width: 30px;
+}
+
+h1{
+  margin-bottom: 0px;
+  font-size:6.5rem;
+}
+
+h4{
+  color: rgb(180, 179, 179);
+
+}
+
+h6{
+  color: rgb(46, 53, 90);
+  color: #996c11;
+  color: whitesmoke;
+}
+
+#phone-h6{
+  margin-bottom: 0px;
+}
+
+h6 svg{
+  position: relative;
+  margin: 0 10px;
+  top: 20px;
+  width: 25px;
+}
+
+#map-icon{
+  position: relative;
+  top: 7px;
+}
+
+a{
+  text-decoration: none;
+}
+
+input[type="submit"]{
+  background-color: rgba(0, 0, 0, 0);
+background-image: linear-gradient(to left, rgb(171, 118, 54) 0%, rgb(215, 175, 126) 49%, rgb(171, 118, 54) 100%);
+background-position-x: 100%;
+background-position-y: 50%;
+background-size: 200%;
+border: none;
+color: whitesmoke;
+}
+
+input[type="email"], textarea,input[type="checkbox"]{
+  background-color: #1f1f1f;
+}
